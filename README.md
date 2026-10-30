@@ -67,7 +67,8 @@
 - FINAL FANTASY XIV는 SQUARE ENIX의 등록상표입니다. 이 프로젝트는 비공식이며 SQUARE ENIX와 관련이 없습니다.
 - 외부 프로그램 사용은 게임 이용약관에 위배될 수 있으며, 사용에 따른 책임은 사용자에게 있습니다.
 
-
+## AI
+본 코드는 Claude Code (Anthropic)의 도움을 받아 제작했습니다.
 
 <!-- 빌드용 -->
 
@@ -123,7 +124,3 @@ python build_all.py            # 설치된 게임에서 폰트를 읽어 modify/
 cd modify/loader
 zig cc -target x86_64-windows-gnu -shared -O2 -s -o dinput8.dll dinput8.c
 ```
-
-
-## AI
-본 코드는 Claude Code의 도움을 받아 제작했습니다.
