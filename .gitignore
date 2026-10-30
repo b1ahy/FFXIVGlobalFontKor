@@ -1,0 +1,28 @@
+# 기존 패치 원본 (dlunch님 배포본, 라이선스 없음 → 재배포 불가)
+original/
+
+# Source Han Sans 원본 폰트 (용량이 크므로 README의 다운로드 안내로 대체)
+font/
+
+# 한국 클라이언트에서 꺼낸 폰트 (SQUARE ENIX / Actoz Soft 에셋)
+modify/krn/
+
+# 빌드 결과물: 저장소에 넣지 않고 GitHub Releases에 zip으로 올림
+modify/FFXIVGlobalKr/
+modify/build/
+modify/preview.png
+*.zip
+*.dll
+
+# 로더가 게임 폴더에서 실행 중에 만드는 파일
+loader.log
+cache/
+
+# 개인 메모
+modify/README (to me).md
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
